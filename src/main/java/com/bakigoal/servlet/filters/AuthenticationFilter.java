@@ -17,7 +17,7 @@ import java.io.IOException;
 /**
  * Created by ilmir on 04.07.16.
  */
-@WebFilter("/AuthenticationFilter")
+@WebFilter("/*")
 public class AuthenticationFilter implements Filter {
 
   private Logger logger = Logger.getLogger(AuthenticationFilter.class);
