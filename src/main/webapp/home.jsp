@@ -13,5 +13,12 @@
 <form action="Logout" method="post">
     <input type="submit" value="Logout" >
 </form>
+<hr>
+<form action="FileUploadServlet"
+      enctype="multipart/form-data"
+      method="POST">
+    <input type="file" name="myFile"><br>
+    <input type="Submit" value="Upload File"><br>
+</form>
 </body>
 </html>
